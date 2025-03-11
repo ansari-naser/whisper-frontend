@@ -20,7 +20,8 @@ export default function Home() {
 
     try {
       // We'll replace this URL soon with our Google Colab ngrok URL.
-      const response = await axios.post("https://9ae1-34-87-162-70.ngrok-free.app/upload", formData, {
+      https://85ac-34-87-162-70.ngrok-free.app/
+      const response = await axios.post("https://85ac-34-87-162-70.ngrok-free.app/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setTranscription(response.data.text);
